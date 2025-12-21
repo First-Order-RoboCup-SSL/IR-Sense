@@ -1,0 +1,60 @@
+
+(footprint SOT23-5 (layer F.Cu) (tedit 69405C1F)
+  (descr "<b>Small Outline Transistor</b>, 5 lead")
+  (attr smd)
+  (fp_text reference REF** (at -2.416705 -1.399145 900) (layer F.SilkS)
+    (effects (font (size 1.00153543307 1.00153543307) (thickness 0.15)))
+  )
+  (fp_text value SOT23-5 (at 2.415385 -2.669615 900) (layer F.Fab)
+    (effects (font (size 1.00098425197 1.00098425197) (thickness 0.15)))
+  )
+  (pad 5 smd rect (at -0.95 -1.306) (size 0.6 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 4 smd rect (at 0.95 -1.306) (size 0.6 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 1 smd rect (at -0.95 1.306) (size 0.6 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 2 smd rect (at 0.0 1.306) (size 0.6 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 3 smd rect (at 0.95 1.306) (size 0.6 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_line (start -1.544 -0.713) (end 1.544 -0.713) (layer F.Fab) (width 0.1524))
+  (fp_line (start 1.544 -0.713) (end 1.544 0.712) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 1.544 0.712) (end -1.544 0.712) (layer F.Fab) (width 0.1524))
+  (fp_line (start -1.544 0.712) (end -1.544 -0.713) (layer F.SilkS) (width 0.1524))
+  (fp_poly
+    (pts
+      (xy -1.18853 -1.5439)
+      (xy -0.7125 -1.5439)
+      (xy -0.7125 -0.71322)
+      (xy -1.18853 -0.71322)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.713834 -1.5439)
+      (xy 1.1875 -1.5439)
+      (xy 1.1875 -0.713934)
+      (xy 0.713834 -0.713934)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -1.18887 0.7124)
+      (xy -0.7125 0.7124)
+      (xy -0.7125 1.54548)
+      (xy -1.18887 1.54548)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.237884 0.7124)
+      (xy 0.2375 0.7124)
+      (xy 0.2375 1.54619)
+      (xy -0.237884 1.54619)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.71292 0.7124)
+      (xy 1.1875 0.7124)
+      (xy 1.1875 1.54461)
+      (xy 0.71292 1.54461)
+    ) (layer F.Fab) (width 0.01)
+  )
+)

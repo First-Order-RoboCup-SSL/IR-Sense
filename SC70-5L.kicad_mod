@@ -1,0 +1,61 @@
+
+(footprint SC70-5L (layer F.Cu) (tedit 69405C1F)
+  (descr "<b>SC-70 Package</b>")
+  (attr smd)
+  (fp_text reference REF** (at 1.34076 -1.85907 0) (layer F.SilkS)
+    (effects (font (size 0.800456692913 0.800456692913) (thickness 0.15)))
+  )
+  (fp_text value SC70-5L (at 2.360475 1.845505 0) (layer F.Fab)
+    (effects (font (size 0.801519685039 0.801519685039) (thickness 0.15)))
+  )
+  (pad 4 smd rect (at 0.65 -0.85) (size 0.35 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 5 smd rect (at -0.65 -0.85) (size 0.35 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 1 smd rect (at -0.65 0.85) (size 0.35 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 2 smd rect (at 0.0 0.85) (size 0.35 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 3 smd rect (at 0.65 0.85) (size 0.35 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_line (start 1.1 0.5) (end -1.1 0.5) (layer F.Fab) (width 0.2032))
+  (fp_line (start -1.1 0.5) (end -1.1 -0.5) (layer F.SilkS) (width 0.2032))
+  (fp_line (start -1.1 -0.5) (end 1.1 -0.5) (layer F.Fab) (width 0.2032))
+  (fp_line (start 1.1 -0.5) (end 1.1 0.5) (layer F.SilkS) (width 0.2032))
+  (fp_circle (center -0.65 0.2) (end -0.5 0.2) (layer F.SilkS) (width 0.0))
+  (fp_poly
+    (pts
+      (xy 0.500556 -1.1)
+      (xy 0.8 -1.1)
+      (xy 0.8 -0.600667)
+      (xy 0.500556 -0.600667)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.800139 -1.1)
+      (xy -0.5 -1.1)
+      (xy -0.5 -0.600104)
+      (xy -0.800139 -0.600104)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.800699 0.6)
+      (xy -0.5 0.6)
+      (xy -0.5 1.10096)
+      (xy -0.800699 1.10096)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.150044 0.6)
+      (xy 0.15 0.6)
+      (xy 0.15 1.10032)
+      (xy -0.150044 1.10032)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.500836 0.6)
+      (xy 0.8 0.6)
+      (xy 0.8 1.10184)
+      (xy 0.500836 1.10184)
+    ) (layer F.Fab) (width 0.01)
+  )
+)
